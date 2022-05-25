@@ -14,12 +14,4 @@ public class Car extends Bicycle {
         System.out.println("Проверяем двигатель");
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "modelName='" + super.getModelName() + '\'' +
-                ", wheelsCount=" + super.getWheelsCount() +
-                '}';
-    }
-
 }

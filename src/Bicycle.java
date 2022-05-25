@@ -27,9 +27,9 @@ public class Bicycle implements Vehicle{
 
     @Override
     public String toString() {
-        return "Bicycle{" +
-                "modelName='" + modelName + '\'' +
-                ", wheelsCount=" + wheelsCount +
+        return getClass().getName() +"{" +
+                "modelName='" + getModelName() + '\'' +
+                ", wheelsCount=" + getWheelsCount() +
                 '}';
     }
 }
