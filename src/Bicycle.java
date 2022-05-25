@@ -15,10 +15,12 @@ public class Bicycle implements Vehicle{
         }
     }
 
+    @Override
     public String getModelName() {
         return modelName;
     }
 
+    @Override
     public int getWheelsCount() {
         return wheelsCount;
     }
