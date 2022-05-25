@@ -12,4 +12,6 @@ public interface Vehicle {
     int getWheelsCount();
     String getModelName();
 
+    String toString();
+
 }
